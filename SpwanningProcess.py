@@ -39,19 +39,6 @@ class PROCESS_INFORMATION(ctypes.Structure):
 	("dwProcessId", DWORD),
 	("dwThreadId", DWORD),
 	]
-	
-# BOOL CreateProcessW(
-# LPWSTR lpApplicationName,
-# LPWSTR lpCommandLine,
-# LPSECURITY_ATTRIBUTES lpProcessAttributes,
-# LPSECURITY_ATTRIBUTES lpThreadAttributes,
-# BOOL bInheritHandle,
-# DWORD dwCreatedFlags,
-# LPVOID lpEnvironment,
-# LPCWSTR lpCurrentDirectory,
-# LPSTARTUPINFO lpStartupInfo,
-# LPPROCESS_INFORMATION, lpProcessInformation
-# );
 
 # Setup the Paramaters for the Win API Calls
 lpApplicationName = "C:\\Windows\\System32\\cmd.exe"
